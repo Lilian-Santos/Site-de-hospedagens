@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*TOPO*/
+#topo {
+  position: relative;
+  padding: 35px 0;
+  background-color: #2f86d6;
+}
+
+#topo > div {
+  width: 1024px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo > h1 {
+  font-size: 32px;
+}
+
+.logo > div > p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.logo > img {
+  height: 80px;
+}
+
+#topo > div > .logo > div {
+  position: absolute;
+  left: 90px;
+  bottom: 10px;
+}
+
+.links {
+  position: absolute;
+  top: 35px;
+  right: 0px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/*TABELA DE PREÇOS*/
+#valores{
+    padding: 100px 0;
+}
+
+table{
+    margin: 0 auto;
+
+}
+
+.destaque {
+    background-color: #f1f3f7;
+}
+
+table thead tr th {
+    padding: 20px;
+    width: 200px;
+}
+
+
+table thead tr th p {
+    font-size: 13px;
+    color: #a8a4a4;
+}
+
+table thead tr th h3 {
+    font-size: 30px;
+}
+
+table tbody tr .destaque {
+    font-weight: 600;
+    padding: 20px;
+    width: 350px;
+    font-size: 15px;
+}
+
+table tbody tr td:not(.destaque) {
+    text-align: center;
+    font-weight: 500;
+    border-right: 2px solid #f1f3f7;
+    border-bottom: 2px solid #f1f3f7;
+}
+
+.marcador {
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/*RODAPÉ*/
+#contato {
+  padding: 100px 0;
+  background-color: #2f86d6;
+}
+
+#contato > .logo {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+
+#contato > .logo > div {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+
+#contato > p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#desenvolvedor {
+  background-color: #f1f3f7;
+  font-size: 16px;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 600;
+}
+
+.destaque_azul{
+    color: #2f86d6;
+}
